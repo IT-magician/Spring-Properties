@@ -1,0 +1,20 @@
+server:
+  port: 0
+
+spring:
+
+  
+  rabbitmq: # RabbitMQ 관련 설정
+    host: localhost
+    port: 5672
+    username: ssafy
+    password: ssafy
+      
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
+
+msg:
+  name: hi
