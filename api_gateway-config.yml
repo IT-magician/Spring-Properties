@@ -10,7 +10,7 @@ spring:
           predicates:
             - Path=/ms2/**
             
-        - id: websocket_route2
-          uri: lb:ws://WEBSOCKET-SERVICE
-          predicates:
-            - Path=/websocket/** # ws://localhost:80/websocket/hi
+        # - id: websocket_route2
+        #   uri: lb:ws://WEBSOCKET-SERVICE
+        #   predicates:
+        #     - Path=/websocket/** # ws://localhost:80/websocket/hi
