@@ -10,10 +10,6 @@ spring:
     username: ssafy
     password: ssafy
       
-      
-server:
-  port: 8089
-
 management:
   endpoints:
     web:
