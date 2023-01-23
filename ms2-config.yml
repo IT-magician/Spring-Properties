@@ -18,4 +18,4 @@ management:
         include: bus-refresh, refresh
 
 msg:
-  name: hi
+  name: hi, taehun. it's good night time!!
